@@ -1,0 +1,14 @@
+<script>
+
+nome = prompt()
+priVar = Number(prompt())
+secVar = Number(prompt())
+terVar = Number(prompt())
+
+debugger
+
+resultado = priVar + secVar + terVar
+
+alert("Boa noite" + nome + "Qual é a primeira Variavel?" + priVar + "Qual é a segunda Variavel?" + secVar + "Qual é a terceira Variavel?" + terVar + "O resultado é:" + resultado)
+
+</script>
