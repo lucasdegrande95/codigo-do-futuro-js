@@ -1,0 +1,57 @@
+<script>
+
+Disney = 15000
+Madri = 12000
+Maceio = 8000
+Ribeirao preto = 5000
+
+nome = prompt("Digite seu nome: ")
+alert(`Olá senhor(a) ${nome}`)
+
+valor = Number(prompt("Qual o seu orçamento para viagem: "))
+alert("As opções são: Disney, Madrid, Maceió, Ribeirão Preto")
+
+destino = prompt("Qual destino escolhido: ")
+if (destino == "Disney"){
+    alert("Você escolhe a Disney")
+        if(valor < Disney){
+        falta = (Disney - valor)
+        alert(`Você não tem dinheiro para viajar, faltam R$${falta}`)
+    }
+    else{
+        alert(`Você pode viajar!`)
+    }
+
+}
+if (destino == "Madri"){
+    alert("Você escolhe a Madri")
+    if(valor < Madri){
+        falta = (Madri - valor)
+        alert(`Você não tem dinheiro para viajar, faltam R$${falta}`) 
+    }
+    else{
+        alert("Você pode viajar!")
+    }
+}
+if (destino == "Maceió"){
+    alert("Você escolhe a Maceió")
+         if(valor < Maceio){
+            falta = (Maceio - valor)
+            alert(`Você não tem dinheiro para viajar, faltam R$${falta}`)
+        }
+        else{
+            alert("Você pode viajar!")
+        }
+}
+if (destino == "Ribeira Preto"){
+    alert("Você escolhe a Ribeirão Preto")
+    if(valor < RibeiraPreto){
+        falta = (RibeiraPreto - valor)
+        alert(`Você não tem dinheiro para viajar, faltam R$${falta}`)
+    }
+    else{
+        alert("Você pode viajar!")
+    }
+}
+
+</script>
